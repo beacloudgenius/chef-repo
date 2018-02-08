@@ -4,6 +4,7 @@
 .chef/knife.rb
 
 cookbooks/
+tmp/
 
 # Ruby
 .rake_test_cache
