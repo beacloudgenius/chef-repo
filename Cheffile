@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site "http://community.opscode.com/api/v1"
+
+cookbook 'apt', "2.4.0"
+cookbook 'build-essential', "2.0.4"
+cookbook 'git', "4.0.2"
+cookbook 'mysql', "5.3.6"
+cookbook 'php', "1.4.6"
+cookbook 'users', "1.7.0"
+cookbook 'sudo', "2.6.0"
+cookbook 'vim', "1.1.2"
+cookbook "iptables", "0.13.2"
+cookbook "logrotate", "1.6.0"
+cookbook "pacman", "1.1.1"
+cookbook "apache2", "2.0.0"
+cookbook "chef-sugar", "2.0.0"
+cookbook "chef_handler", "1.1.6"
+cookbook "dmg", "2.2.0"
+cookbook "yum", "3.2.2"
+cookbook "yum-epel", "0.3.6"
+cookbook "runit", "1.5.10"
+cookbook "windows", "1.31.0"
+cookbook "iis", "2.1.2"
+cookbook "yum-mysql-community", "0.1.8"
+cookbook "xml", "1.2.6"
