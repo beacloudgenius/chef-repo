@@ -1,0 +1,11 @@
+{
+    "id": "user",
+    "ssh_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5wmgonCR4X8zw9W8mR2hME1eIOeg6/ya6vmEMDgVEwr1FQX8HAO6U+m7FejgsTfQwdgyIGy7LogL2jC0s3nSOfMPhUl0u5ZWsID6WXGF0S/6plTWnMHQBQFANaUxo4lGrX++fWXnQRW6zBj7+6V3Z+FiSV9zhz1lqsISSo8bDuMrNkelBX8OxTlbxdZ5hfQcCINhkloFN45G9jy+oiXcgwkthZoBFKeVrL+4v6L/fYzEbMChctJ5GI9yauRImwNLYBUIVuAltnyqoTAaGeFwff7eL/bZWkQa4CXBpALgo5CHR46aLX6IRFOMZVUdLkYt5XvCSB/wN3vz+4PjoTDmVuiL8bzC3lWM0U6kascgL08ihquO1Al6FjDBZVw7nTC3R9rfvmaP+E84Ctkr8KmVNeXU0/lRgGRAq99Ic+82JGmeCHdu8tmU/i9RtNkbLmkBosjYxa8ez3sW5dm34uR8y2ZuzEs5lZxtKS4wTNkf70q2QjDs92EhD+E+W/CbaDfljLWUNCMd4I3vVMA5v+AFRcV+HHTMguJ7qONmx+O1ue4LDItqgBvapLIJ4AmWpFNt4uTmxDGblPsZTAdsCusDogJ///VeZBLsj0A8iiptpIZs/mfLPhKNUpP2Wz9SG7oAYuInupYSP3B5ORF2NJD2nBfjM6RfoRLn/GHNTV4+KWQ==",
+    "groups": [
+        "sysadmin",
+        "dba",
+        "devops"
+    ],
+    "uid": 2001,
+    "shell": "\/bin\/bash"
+}
