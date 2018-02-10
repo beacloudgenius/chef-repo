@@ -8,6 +8,8 @@ all_env = [
   "recipe[apache2]",
   "recipe[apache2::mod_php5]",
   "recipe[apache2::mod_rewrite]",
+  "recipe[wp::default]",
+  "recipe[dbuser::default]"
 ]
 
 run_list(all_env)
