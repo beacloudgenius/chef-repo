@@ -1,6 +1,6 @@
 #!/bin/sh
 # This is a comment
-mysql -t --user=root --password=123 <<STOP
+mysql -h 127.0.0.1 -t --user=root --password=123 <<STOP
 -- This is a comment inside an sql-command-stream.
 
 CREATE DATABASE IF NOT EXISTS wordpress;
