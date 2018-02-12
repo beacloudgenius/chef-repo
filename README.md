@@ -6,7 +6,23 @@ bundle exec knife ec2 server create \
        -f t2.micro \
        -r "recipe[nginx]"
 
-asd
+bundle exec knife digital_ocean droplet create \
+    --server-name docloudgenius \
+    --image ubuntu-14-04-x64 \
+    --location sfo2 \
+    --size 1gb \
+    --bootstrap \
+    --identity-file "~/.ssh/id_rsa" \
+    --ssh-keys 18130646 \
+    --environment prod \
+    --run-list 'role[base], role[db_master], role[webserver]'
 
-asd
-asd
+bundle exec knife ec2 server create \
+      -S id_rsa \
+      -i ~/.ssh/id_rsa \
+      -N ec2cloudgenius \
+      -x ubuntu \
+      -I ami-8f78c2f7 \
+      -f t2.micro \
+      --environment prod \
+      --run-list 'role[base], role[db_master], role[webserver]'
