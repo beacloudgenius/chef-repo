@@ -20,7 +20,7 @@ bundle exec knife digital_ocean droplet create \
 bundle exec knife ec2 server create \
       -S id_rsa \
       -i ~/.ssh/id_rsa \
-      -N ec2cloudgenius
+      -N ec2cloudgenius \
       -x ubuntu \
       -I ami-c62eaabe \
       -f t2.micro \
