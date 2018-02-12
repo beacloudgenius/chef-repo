@@ -24,6 +24,16 @@ template "/etc/apache2/sites-available/cloudgenius.conf" do
  notifies :restart, resources(:service => "apache2")
 end
 
+bash "enable-sites" do
+  user 'root'
+  cwd '/tmp'
+  code <<-EOH
+  #!/bin/bash
+  a2ensite cloudgenius.conf
+  service apache2 reload
+  EOH
+end
+
 bash 'install_wp' do
   user 'root'
   cwd '/tmp'

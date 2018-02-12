@@ -1,4 +1,4 @@
-bundle exec knife digital_ocean droplet destroy cloudgenius -y
+bundle exec knife digital_ocean droplet destroy --all
 rm -rf ~/.ssh/known_hosts
 
 bundle exec knife node delete cloudgenius -y
