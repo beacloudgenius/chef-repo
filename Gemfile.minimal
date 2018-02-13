@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+ruby '2.3.1'
+
+gem 'berkshelf', '5.6.5'
+gem 'bundler', '1.16.1'
+gem 'chef', '12.21.31'
+
+gem 'knife-azure', '1.8.0'
+gem 'knife-digital_ocean', '2.6.0'
+gem 'knife-ec2', '0.17.0'
