@@ -9,6 +9,7 @@ DEPENDENCIES
   sudo (= 4.0.0)
   users (= 5.3.1)
   vim (= 2.0.2)
+  yum-epel (= 2.1.2)
 
 GRAPH
   apache2 (5.0.1)
@@ -16,6 +17,7 @@ GRAPH
   build-essential (8.0.4)
     mingw (>= 1.1)
     seven_zip (>= 0.0.0)
+  compat_resource (12.19.1)
   git (8.0.1)
     build-essential (>= 0.0.0)
     homebrew (>= 0.0.0)
@@ -35,3 +37,5 @@ GRAPH
   vim (2.0.2)
   windows (3.4.4)
     ohai (>= 4.0.0)
+  yum-epel (2.1.2)
+    compat_resource (>= 12.16.3)

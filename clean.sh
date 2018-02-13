@@ -7,6 +7,7 @@ bundle exec knife client delete ec2cloudgenius -y
 
 bundle exec knife role from file roles/*.rb
 bundle exec knife cookbook upload -o ./site-cookbooks/ --all
+bundle exec knife cookbook upload -o ~/.berkshelf/cookbooks/ --all
 
 
 bundle exec knife digital_ocean droplet destroy --all
